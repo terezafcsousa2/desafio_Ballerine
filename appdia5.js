@@ -15,7 +15,7 @@ while( adicionarItem =='sim'){
 
   if (adicionarItem == 'sim'){
   let item = prompt ('O que você deseja adicionar?');
-  let tipo = prompt ( 'Digite o número da categoria do seu ítem: 1 Mercearia, 2 Frios e Laticínios, 3 Carnes e Peixes, 4 Hortifruti, 5 Limpeza e Higiene, 6 Frutas e Legumes ou 7 Matinais');
+  let tipo = prompt ( 'Digite o número da categoria do seu ítem: 1 Mercearia, 2 Frios e Laticínios, 3 Carnes e Peixes, 4 Limpeza e Higiene, 5 Frutas e Legumes ou 6 Matinais');
   
   if (tipo == 1){
     mercearia.push(item);
@@ -32,17 +32,17 @@ while( adicionarItem =='sim'){
     console.log (`Carnes e peixes : ${carnesEpeixes} `);
   }
 
-  if (tipo == 5){
+  if (tipo == 4){
     limpezaEhigiene.push(item);
     console.log(`Limpeza e higiene : ${limpezaEhigiene} `);
   }
 
-  if (tipo == 6){
+  if (tipo == 5){
     frutasElegumes.push(item);
     console.log(`Frutas e legumes : ${frutasElegumes} `);
   }
 
-  if (tipo == 7){
+  if (tipo == 6){
     matinais.push(item);
     console.log (`Matinais : ${matinais} `);
   }  
