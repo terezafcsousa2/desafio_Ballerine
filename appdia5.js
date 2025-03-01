@@ -60,7 +60,7 @@ if(friosELaticinios.length){
 if(carnesEpeixes.length){
   console.log( `Carnes e peixes :${carnesEpeixes}`);
 }
-if( hortifruti.length){
+if( frutasElegumes.length){
   console.log( `Hortifruti :${frutasElegumes}`);
 }
 if(mercearia.length){
