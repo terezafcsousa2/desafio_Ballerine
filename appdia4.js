@@ -6,7 +6,7 @@ let contador = 2;
 let acertouNumero = Math.floor(Math.random() * 7 +1);
 let chute = 0;
 
-while (chute != 7){
+while (chute != acertouNumero){
   
   chute = prompt ('Qual o valor que você deseja chutar?');
   if (chute == acertouNumero){
