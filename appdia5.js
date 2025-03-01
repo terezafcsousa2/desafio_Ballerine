@@ -4,7 +4,6 @@ titulo.innerHTML = 'Hora do Desafio Rafa Ballerini.';
 let matinais = [];
 let friosELaticinios = [];
 let carnesEpeixes = [];
-let hortifruti = [];
 let mercearia = [];
 let limpezaEhigiene = [];
 let frutasElegumes =[];
@@ -31,11 +30,6 @@ while( adicionarItem =='sim'){
   if (tipo == 3){
     carnesEpeixes.push(item);
     console.log (`Carnes e peixes : ${carnesEpeixes} `);
-  }
-
-  if (tipo == 4){
-    hortifruti.push(item);
-    console.log(`Hortifrute : ${hortifruti} `);
   }
 
   if (tipo == 5){
@@ -67,7 +61,7 @@ if(carnesEpeixes.length){
   console.log( `Carnes e peixes :${carnesEpeixes}`);
 }
 if( hortifruti.length){
-  console.log( `Hortifruti :${hortifruti}`);
+  console.log( `Hortifruti :${frutasElegumes}`);
 }
 if(mercearia.length){
   console.log(`Mercearia: ${ mercearia}`);
