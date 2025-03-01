@@ -69,7 +69,7 @@ O importante é que a pessoa que estiver jogando possa sempre escolher qual deci
 
 Além disso, também é essencial que, ao final do jogo, ela possa inserir quantas tecnologias quiser na lista de aprendizado.
 
-## Dia 4
+## Dia 5
 
 Então hoje, para facilitar a sua ida ao supermercado, você deve criar um programa em Javascript que perguntará se você deseja adicionar uma comida na sua lista de compras, e você deve poder responder com sim ou não.
 
