@@ -2,32 +2,41 @@ let titulo = document.querySelector('h1');
 titulo.innerHTML = 'Hora do Desafio Rafa Ballerini.';
 
 console.log('ola');
-let contador = 2;
-let acertouNumero = Math.floor(Math.random() * 7 +1);
-let chute = 0;
+let contador = 0;
+let acertouNumero = 7;
 
-while (chute != acertouNumero){
+
+while (contador < 3){
   
-  chute = prompt ('Qual o valor que você deseja chutar?');
+  let chute = prompt ('Qual o valor que você deseja chutar?');
   if (chute == acertouNumero){
     alert('Parabéns você acertou o número ');
-    break 
+    contador = 3;
   }
-  
   chute = prompt('Chute outro valor');
 
   if (chute == acertouNumero){
     alert('Parabéns você acertou o número ');
-    break
+    contador++;
   }
-
 
   chute = prompt('Chute outro valor');
   if (chute == acertouNumero){
     alert('Parabéns você acertou o número ');
-    break
-  } 
+    contador ++;
+  } else {alert(`Que pena não foi dessa vez, o número era ${acertouNumero}`);contador = 3;}
+
+
+
+
+
+
+
+
+
+
+
 
   
-  else{alert(`Que pena não foi dessa vez, o número era o ${acertouNumero}`);contador = 3;}
-}
+
+
